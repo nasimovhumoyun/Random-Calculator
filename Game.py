@@ -16,7 +16,7 @@ while game:
         value1 = random.randint(0, 101)
         value2 = random.randint(0, 101)
         if value1%value2 == 0:
-            answer = value1%value2
+            answer = value1/value2
         else:
             continue
     else:
